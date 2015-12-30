@@ -7,9 +7,9 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: #ffcc99;
 }
 /* Link Styles */
 
@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/Pier.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -75,18 +75,35 @@ header .profile-image {
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
+  border-radius:  15%;
+  margin-bottom: 10px;
+}
+header .profile-image2 {
+  margin-top: 50px;
+  width: 150px;
+  height: 164px;
+  border-radius: 50%;
+  border: 3px solid white;
+  transition: all .5s;
+}
+header .profile-image2:hover {
+  transform: scale(1.2) rotate(-5deg);
+  border-radius:  15%;
+  margin-bottom: 10px;
 }
 .tag {
-  background-color: #efefef;
+  background-color: #cccccc;
   color: black;
-  padding: 10px;
-  border-radius: 5px;
+  font-family: 'Old Standard TT', sans-serif;
+  padding: 3px;
+  border-radius: 2px;
   display: table;
   margin: 10px auto;
 } 
 .location {
+  font-family: 'Lato', sans-serif;
   background-color: #222;
-  color: yellow;
+  color: #66cc99;
 }
 .card {
   margin: 30px;
@@ -95,11 +112,11 @@ header .profile-image:hover {
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
-  border-radius: 6px;
+  border-radius: 3px;
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #9999cc;
 }
 
 ul.skills {
@@ -108,16 +125,23 @@ ul.skills {
 }
 
 .skills li {
-  border-radius: 6px;
+  border-radius: 3px;
   display: inline-block;
-  background: #ff9904;
+  background: #ff9966;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #336799;
+}
+
+#medium-icon {
+  float: right;
+  height: 50px;
+  display: inline;
+  margin: 0px; 
 }
 
 footer {
